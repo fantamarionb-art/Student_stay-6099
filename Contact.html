@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - StudentStay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">C</span>
+                <span class="logo-text">StudentStay</span>
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="accommodation.html">Accommodation</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+            <a href="accommodation.html" class="btn-find-room">Find a room</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="contact-header">
+            <span class="section-tag">GET IN TOUCH</span>
+            <h2>Let’s talk student accommodation.</h2>
+            <p>Send a question and we’ll help you understand your next step.</p>
+        </section>
+
+        <section class="contact-wrapper">
+            <div class="contact-info-box">
+                <h3>We’re here to help.</h3>
+                <p>Ask about room types, facilities, moving in or how to compare your options.</p>
+                
+                <div class="info-group">
+                    <span class="info-label">EMAIL</span>
+                    <p class="info-value">support@studentstay.com</p>
+                </div>
+                <div class="info-group">
+                    <span class="info-label">RESPONSE TIME</span>
+                    <p class="info-value">Within 24 business hours</p>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h3>Send us a message</h3>
+                <form onsubmit="event.preventDefault();">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full name</label>
+                            <input type="text" placeholder="Your name" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label>Email address</label>
+                            <input type="email" placeholder="you@example.com" class="form-input">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Write your question here..." class="form-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send enquiry</button>
+                    <p class="form-note">Prototype only — connect a secure form service before collecting real enquiries.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-logo">StudentStay</div>
+            <div class="footer-concept">A better place to live, learn and belong. • Student accommodation concept</div>
+        </div>
+    </footer>
+
+</body>
+</html>
